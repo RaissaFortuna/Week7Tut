@@ -9,7 +9,7 @@ canvas {
   top: 0;
   z-index: -1;
 }
-
+/*input element selector?*/
 ul li {
   list-style: none;
 }
@@ -19,17 +19,20 @@ label {
 }
 
 input {
-
+  display: block;
+  margin-bottom: 10px;
 }
 
+/*pseudo selectors that uses the colon syntax*/
 input:focus {
+  outline: 2px solid red;
 
 }
 
 button:hover {
-
+  background: lightpink;
 }
 
 button:active {
-
+  border: 10px solid yellow;
 }
